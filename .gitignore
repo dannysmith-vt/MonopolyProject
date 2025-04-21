@@ -1,0 +1,15 @@
+# Ignore backup files
+*.asv
+*.m~
+
+# Ignore figures and cache
+*.fig
+*.mat
+*.mlx.autosave
+
+# Ignore Simulink auto-gen
+slprj/
+simulink.cache/
+
+# Ignore hidden folders (like .git itself)
+.DS_Store
